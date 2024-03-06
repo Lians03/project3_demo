@@ -1,0 +1,37 @@
+.left-column {
+  float: left;
+  margin-top: 35px;
+  width: 50%;
+}
+
+.right-column {
+  float: left;
+  width: 50%;
+}
+
+.right-column-nobutton {
+  float: left;
+  width: 50%;
+margin-top: 25px;
+}
+
+.column {
+  float: left;
+  width: 95%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.button {
+  float: left;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+font-family: "franklin-gothic-urw";
+}

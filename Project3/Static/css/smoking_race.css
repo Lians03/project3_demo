@@ -1,0 +1,48 @@
+/* Navbar */
+.navbar.navbar-dark.bg-dark {
+    width:100%;
+}
+
+/* Carousel */
+#myCarousel{
+    width:100%;
+    }
+    
+.carousel-item.active, .carousel-item{
+    width: 100%; /* Make sure the containers take the full width */
+    height: 100vh;
+}
+
+.carousel-caption.text-start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+.carousel-caption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+.carousel-caption img {
+    max-width: 1000px;
+    max-height: 200px;
+    position: absolute;
+    bottom: -400px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.carousel-inner {
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    align-self: center;
+    filter: invert(1) grayscale(100%);
+}
